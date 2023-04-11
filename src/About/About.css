@@ -1,0 +1,33 @@
+.About{
+    width: 80vw;
+    height: 100vh;
+    position: fixed;
+}
+
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-image{
+    width: 20em;
+    height: 20em;
+    background-size: cover;
+    border-radius: 12%;
+    background-image: url("../assets/ProfilePhoto1.jpeg");
+}
+
+
+.hihlighted-btn{
+    margin:  0 0 0 28px;
+}
+
+.hihlighted-btn:hover{
+    margin:  0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+}
