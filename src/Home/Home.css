@@ -1,0 +1,122 @@
+.Home {
+  width: 80vw;
+  /* height: 100vh; */
+  /* background-color: violet; */
+  position: fixed;
+  top: 64px;
+  left: 20%;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.home-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: -65px;
+  /* background-color: aliceblue; */
+}
+
+
+.me {
+  /* margin-top: 12%; */
+  margin-left: 10px;
+}
+
+.me h1{
+  font-size: 30px;
+}
+
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 0px #ffffff;
+  border-radius: 50%;
+  height: 370px;
+  width: 370px;
+  /* margin-top: 4%; */
+  margin-left: 12%;
+  /* margin:  50px 0px 0 100px; */
+}
+
+.profile-picture-background {
+  height: 92%;
+  width: 92%;
+  background-image: url("../assets/ProfilePhoto1.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.profile-picture-background:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+
+@media (max-width: 1110.5px) {
+  .home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -4%;
+  }
+
+  .me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+  .profile-picture {
+    width: 320px;
+    height: 320px;
+    /* border-radius: 50%; */
+    /* margin-left: 5%; */
+  }
+}
+
+@media (max-width: 800.5px) {
+  .home-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: -3em;
+    margin-left: 3%;
+    /* overflow: scroll; */
+  }
+  .profile-picture {
+    width: 290px;
+    height: 290px;
+    margin-left: -22%;
+    background-color: black;
+  }
+
+  .me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -22%;
+    margin-top: 4%;
+  }
+}
+
+@media(max-width:510px){
+  .home-container{
+    align-items: center;
+    /* margin-left: -14%; */
+  }
+  .profile-picture {
+    width: 240px;
+    height: 240px;
+    /* margin-left: -22%; */
+    /* background-color: black; */
+  }
+
+  .me h1{
+    font-size: 20px;
+  }
+}

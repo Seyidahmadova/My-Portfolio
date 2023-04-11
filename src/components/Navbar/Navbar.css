@@ -3,6 +3,7 @@
 .Navbar {
   width: 100%;
   height: 10vh;
+  background-color: #0a192fd9;
 }
 
 nav {
@@ -14,9 +15,15 @@ nav {
   border-bottom: thick double #e7eff2;
 }
 
+/* .logo{
+  margin-left: 35px;
+} */
+
 .brand {
-  font-family: "Pattaya", sans-serif;
-  font-size: 32px;
+  /* font-family: "Pattaya", sans-serif; */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  color: #ccd6f6;
 }
 
 .nav-container {
@@ -32,7 +39,7 @@ nav {
 }
 
 .nav-menu > a {
-  color: black;
+  color: #ccd6f6;
 }
 
 .icon {
@@ -45,9 +52,23 @@ nav {
   display: flex;
 }
 
+
+/* .dark{
+  background-color: black;
+  color: white;
+}
+
+.dark  .nav-menu > a {
+  color: white;
+} */
+
+
+
+
 @media (max-width: 487.5px) {
   .brand {
     padding: 0.5em 1em 0.5em 2em !important;
+    z-index: 2;
   }
 
   .nav {
@@ -58,6 +79,7 @@ nav {
     position: absolute;
     top: 18px;
     right: 70px;
+    z-index: 2;
   }
 }
 
@@ -71,9 +93,6 @@ nav {
   .nav-menu > a {
     font-size: 14px;
   }
-  .brand {
-    font-size: 25px;
-  }
 }
 
 @media (max-width: 650.5px) {
@@ -81,7 +100,7 @@ nav {
     margin-left: 14%;
   }
   .brand {
-    font-size: 23px;
+    font-size: 18px;
     padding: 0.5em 1em 0.5em 1em;
   }
   .nav-menu > a {
