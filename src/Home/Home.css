@@ -1,10 +1,12 @@
 .Home {
-  width: 80vw;
-  /* height: 100vh; */
+  width: 100vw;
+  height: 100vh;
   /* background-color: violet; */
-  position: fixed;
-  top: 64px;
-  left: 20%;
+  margin-top: -2px;
+  /* margin-left: 20%; */
+  /* position: fixed; */
+  /* top: 64px; */
+  /* left: 20%; */
   /* display: flex; */
   /* justify-content: center; */
 }
@@ -13,9 +15,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100vh;
-  margin-top: -65px;
+  width: 80%;
+    height: 100%;
+    margin-left: 20%;
   /* background-color: aliceblue; */
 }
 
@@ -62,7 +64,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -4%;
+    /* margin-left: -4%; */
   }
 
   .me{
@@ -84,14 +86,14 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    margin-top: -3em;
-    margin-left: 3%;
+    /* margin-top: -3em; */
+    /* margin-left: 3%; */
     /* overflow: scroll; */
   }
   .profile-picture {
     width: 290px;
     height: 290px;
-    margin-left: -22%;
+    /* margin-left: -22%; */
     background-color: black;
   }
 
@@ -99,14 +101,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: -22%;
-    margin-top: 4%;
+    /* margin-left: -22%; */
+    /* margin-top: 4%; */
   }
 }
 
 @media(max-width:510px){
   .home-container{
     align-items: center;
+    margin-left: 9%;
     /* margin-left: -14%; */
   }
   .profile-picture {
@@ -119,4 +122,12 @@
   .me h1{
     font-size: 20px;
   }
+}
+
+
+@media (max-width:487.5px){
+  /* .Home{
+    margin-left: 0%;
+    width: 100vw;
+  } */
 }
