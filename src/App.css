@@ -1,13 +1,15 @@
 .App {
   text-align: center;
   display: flex;
-  position: relative;
+  flex-direction: column;
+  /* position: relative; */
   background-color: black;
 }
 
 .App a {
   text-decoration: none;
 }
+
 
 
 

@@ -12,13 +12,31 @@ function App() {
       <BrowserRouter>
         <NavbarP />
         <React.Fragment>
-          <LeftSide />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/"  element={<Home />} />
             <Route path="/about" element={<About/>}/>
           </Routes>
         </React.Fragment>
       </BrowserRouter>
+
+
+      {/* <BrowserRouter>
+      <NavbarP/>
+      <LeftSide/>
+      <Routes>
+      <Route exact path="/" Component={Home}/>
+                        <Route path="/home" Component={Home}/>
+                        <Route path="/about" Component={About}/>
+      </Routes>
+      </BrowserRouter> */}
+
+
+      {/* <NavbarP/>
+      <LeftSide/>
+      <div className="cont">
+      <Home/>
+      <About/>
+      </div> */}
     </div>
   );
 }
