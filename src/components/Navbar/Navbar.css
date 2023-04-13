@@ -101,7 +101,7 @@ nav {
   }
   .brand {
     font-size: 18px;
-    padding: 0.5em 1em 0.5em 1em;
+    margin-top: 2%;
   }
   .nav-menu > a {
     font-size: 12px;
