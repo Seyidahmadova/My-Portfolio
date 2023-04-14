@@ -48,7 +48,7 @@ export default function NavbarP() {
 
   return (
     <div className="Navbar">
-      {screenSize.dynamicWidth < 488 ? (
+      {screenSize.dynamicWidth < 479 ? (
         <div className="resizedPart">
           <Navbar.Brand className="brand">Aysel</Navbar.Brand>
           {/* <div className="logo">

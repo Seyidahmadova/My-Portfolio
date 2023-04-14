@@ -13,8 +13,8 @@ export default function LeftSide() {
           <svg
             className="media-icon"
             xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
+            width="23"
+            height="23"
             fill="#ccd6f6"
             class="bi bi-linkedin"
             viewBox="0 0 16 16"
@@ -30,8 +30,8 @@ export default function LeftSide() {
           <svg
             className="media-icon"
             xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
+            width="23"
+            height="23"
             fill="#ccd6f6"
             class="bi bi-facebook"
             viewBox="0 0 16 16"
@@ -42,10 +42,10 @@ export default function LeftSide() {
 
         <Nav.Link href="https://github.com/Seyidahmadova" target="_blank">
           <svg
-            className="media-icon"
+           className="media-icon"
             xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
+            width="23"
+            height="23"
             fill="#ccd6f6"
             class="bi bi-github"
             viewBox="0 0 16 16"

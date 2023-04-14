@@ -2,7 +2,7 @@
 
 .Navbar {
   width: 100%;
-  height: 10vh;
+  height: 54px;
   background-color: #0a192fd9;
 }
 
@@ -63,26 +63,6 @@ nav {
 } */
 
 
-
-
-@media (max-width: 487.5px) {
-  .brand {
-    padding: 0.5em 1em 0.5em 2em !important;
-    z-index: 2;
-  }
-
-  .nav {
-    border-bottom: none;
-  }
-
-  .icon {
-    position: absolute;
-    top: 18px;
-    right: 70px;
-    z-index: 2;
-  }
-}
-
 @media (max-width: 895.5px) {
   .nav-menu {
     margin-left: 21%;
@@ -101,7 +81,7 @@ nav {
   }
   .brand {
     font-size: 18px;
-    margin-top: 2%;
+    margin-top: 0%;
   }
   .nav-menu > a {
     font-size: 12px;
@@ -109,5 +89,24 @@ nav {
 
   nav {
     padding: 1em 2em 1em 1em;
+  }
+}
+
+
+@media (max-width: 478.5px) {
+  .brand {
+    padding: 0.5em 1em 0.5em 2em !important;
+    z-index: 2;
+  }
+
+  .nav {
+    border-bottom: none;
+  }
+
+  .icon {
+    position: absolute;
+    top: 18px;
+    right: 70px;
+    z-index: 2;
   }
 }

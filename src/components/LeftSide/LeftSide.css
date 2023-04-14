@@ -1,13 +1,17 @@
 .Left-Side{
     position: fixed;
-    width: 20%;
-    height: 100vh;
-    top: 64px;
+    width: 15%;
+    height: 92vh;
+    /* top: 64px; */
     /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .leftSide-container{
-    margin-top: 70%;
+    /* background-color: antiquewhite; */
+    margin-top: 13em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,8 +37,4 @@
         gap: 0;
     }
 
-    .media-icon{
-        width: 16px;
-        height: 16px;
-    } 
 }

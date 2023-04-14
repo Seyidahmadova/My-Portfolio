@@ -1,8 +1,8 @@
 .Home {
   width: 100vw;
-  height: 100vh;
-  /* background-color: violet; */
-  margin-top: -2px;
+  height: 92vh;
+  background-color: violet;
+  /* margin-top: -2px; */
   /* margin-left: 20%; */
   /* position: fixed; */
   /* top: 64px; */
@@ -11,20 +11,34 @@
   /* justify-content: center; */
 }
 
+
+/* .home-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
 .home-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
-    height: 100%;
-    margin-left: 20%;
+  margin-left: 15%;
+  /* background-color: antiquewhite; */
+  width: 85vw;
+  margin-top: 10%;
+  /* height: 100%; */
   /* background-color: aliceblue; */
 }
 
 
 .me {
+  display: flex;
+  flex-direction: column;
   /* margin-top: 12%; */
   margin-left: 10px;
+  gap: 16px;
+    /* margin-top: 16%; */
+
 }
 
 .me h1{
@@ -59,11 +73,12 @@
   transition: 1s ease-out;
 }
 
-@media (max-width: 1110.5px) {
+@media (max-width: 1022.5px) {
   .home-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    margin-top: 7em;
     /* margin-left: -4%; */
   }
 
@@ -74,11 +89,14 @@
     margin-left: 0;
   }
   .profile-picture {
-    width: 320px;
-    height: 320px;
-    /* border-radius: 50%; */
-    /* margin-left: 5%; */
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    margin-left: 0;
   }
+  .me h1 {
+    font-size: 27px;
+}
 }
 
 @media (max-width: 800.5px) {
@@ -93,7 +111,7 @@
   .profile-picture {
     width: 290px;
     height: 290px;
-    /* margin-left: -22%; */
+    margin-left: 0;
     background-color: black;
   }
 
@@ -101,33 +119,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* margin-left: 10px; */
+    gap: 16px;
     /* margin-left: -22%; */
-    /* margin-top: 4%; */
+    margin-top: 10%;
   }
 }
 
-@media(max-width:510px){
+/* @media(max-width:510px){
   .home-container{
     align-items: center;
     margin-left: 9%;
-    /* margin-left: -14%; */
+    
   }
   .profile-picture {
     width: 240px;
     height: 240px;
-    /* margin-left: -22%; */
-    /* background-color: black; */
   }
 
   .me h1{
     font-size: 20px;
   }
-}
+} */
 
 
 @media (max-width:487.5px){
-  /* .Home{
-    margin-left: 0%;
+  .home-container {
     width: 100vw;
-  } */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    /* margin-top: -3em; */
+    margin-left: 0%;
+  }
 }
