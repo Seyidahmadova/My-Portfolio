@@ -1,16 +1,13 @@
 .About {
   width: 100vw;
   height: 92vh;
-  /* background-color: violet; */
-  /* margin-top: -2px; */
 }
 
 .about-container {
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin-top: 5%;
-  margin-left: 2%;
+  margin-top: 6em;
 }
 
 .introduction {
@@ -27,8 +24,8 @@
 }
 
 .about-image {
-  width: 20em;
-  height: 20em;
+    width: 300px;
+    height: 315px;
   background-size: cover;
   border-radius: 12%;
   background-image: url("../assets/ProfilePhoto1.jpeg");
@@ -123,8 +120,8 @@
     font-size: 15px;
   }
   .about-image {
-    width: 16em;
-    height: 16em;
+    width: 250px;
+    height: 280px;
   }
 
   .ecs {
@@ -148,19 +145,21 @@
     height: 100%;
   }
   .introduction {
-    margin-bottom: 13%;
+    margin-bottom: 9%;
   }
 
   .about-detail {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3em;
+    margin-top: -3%;
   }
 
   .about-image {
-    width: 20em;
-    height: 22em;
+    width: 300px;
+    height: 320px;
   }
 
   .about {
@@ -168,6 +167,7 @@
     margin-bottom: 4em;
     width: 75%;
     gap: 44px;
+    margin-left: 40px;
   }
 
   .ecs {
@@ -194,21 +194,30 @@
     flex-direction: column;
     align-items: center;
   }
+  .about-container{
+    margin-top: 5em;
+  }
+
+  .about-detail{
+    margin-top: 0;
+  }
   .ecs-detail {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    margin-left: -20px;
   }
   .ecs {
     width: 225px;
     display: flex;
     height: 121px;
   }
-}
-
-@media (max-width: 487.5px) {
-  .About {
-    margin-left: 0%;
-    width: 100vw;
+  .about-image {
+    width: 18em;
+    height: 19em;
+  }
+  .download-button{
+    margin-left: -20px;
   }
 }
+
