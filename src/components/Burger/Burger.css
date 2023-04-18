@@ -34,7 +34,7 @@
 
 .menu {
     width: 31em;
-    height: 50vh;
+    height: 38vh;
     display: flex;
     flex-direction: column;
     background-color: rgba(10, 25, 47, 0.85);
@@ -77,13 +77,20 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    top: 60px;
+    top: 80px;
     left: 50px;
-    gap: 14px;
     text-align: left;
+    gap: 15px;
 }
 
-.menu-container > a{
+.menu-lists{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.menu-container a{
     color: #ccd6f6;
     font-size: 14px;
 }
