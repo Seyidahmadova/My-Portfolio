@@ -83,6 +83,24 @@ export default function NavbarP() {
           </div> */}
 
           <div className="nav-menu">
+            {/* <ul className="nav-menu-lists">
+              <li className="nav-item">
+                <a href="#home" className="nav-link">Home</a>
+              </li>
+              <li className="nav-item">
+                <a href="#about" className="nav-link">About</a>
+              </li>
+              <li className="nav-item">
+                <a href="#skills" className="nav-link">Skills</a>
+              </li>
+              <li className="nav-item">
+                <a href="#portfolio" className="nav-link">Portfolio</a>
+              </li>
+              <li className="nav-item">
+                <a href="#contact" className="nav-link">Contact</a>
+              </li>
+            </ul> */}
+
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/skills">Skills</Nav.Link>
