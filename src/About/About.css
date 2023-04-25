@@ -1,13 +1,13 @@
 .About {
-  width: 100vw;
-  height: 92vh;
+  width: 100%;
+  height: 100vh;
 }
 
 .about-container {
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin-top: 6em;
+  margin-top: 5em;
 }
 
 .introduction {
@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5%;
+  margin-bottom: 3.5%;
 }
 
 .about-detail {

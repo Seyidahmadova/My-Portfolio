@@ -1,6 +1,6 @@
 .Home {
   width: 100vw;
-  height: 92vh;
+  height:100vh;
 }
 
 
@@ -8,9 +8,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 15%;
+  margin-left: 14%;
   width: 85vw;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 
@@ -57,7 +57,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
+  padding-left: 10px;
   width: 180px;
   height: 70px;
   font-size: 20px;
@@ -100,6 +101,7 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    justify-content: center;
     margin-top: 60px;
   }
   .profile-picture {
@@ -120,9 +122,6 @@
     font-size: 25px;
   }
 
-  .say-hello{
-
-  }
 }
 
 

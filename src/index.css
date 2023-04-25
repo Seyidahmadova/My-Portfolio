@@ -9,9 +9,12 @@
 }
 
 html, body{
-  /* font-family: 'Poppins', sans-serif; */
   color: #ccd6f6;
   font-family: 'Courier New';
   background-color: #0a192f;
 }
+
+/* html, body, #root, .wrapper {
+  height:100vh;
+} */
 
