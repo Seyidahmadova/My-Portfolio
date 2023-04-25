@@ -2,13 +2,18 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  /* position: relative; */
   background-color: black;
 }
 
 .App a {
   text-decoration: none;
 }
+
+/* 
+#App {
+  height: 100%;
+  min-height: 100vh;
+} */
 
 
 
