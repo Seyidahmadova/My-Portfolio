@@ -38,27 +38,6 @@ export default function Burger() {
 
       <div className={menu_class}>   
          <div className='menu-container'>
-
-
-         {/* <ul className="menu-lists">
-              <li className="menu-item">
-                <a href="#home" className="menu-link">Home</a>
-              </li>
-              <li className="menu-item">
-                <a href="#about" className="menu-link">About</a>
-              </li>
-              <li className="menu-item">
-                <a href="#skills" className="menu-link">Skills</a>
-              </li>
-              <li className="menu-item">
-                <a href="#portfolio" className="menu-link">Portfolio</a>
-              </li>
-              <li className="menu-item">
-                <a href="#contact" className="menu-link">Contact</a>
-              </li>
-            </ul> */}
-
-
           <Nav.Link href='/'>Home</Nav.Link>
           <Nav.Link href='/about'>About</Nav.Link>
           <Nav.Link href='/skills'>Skills</Nav.Link>

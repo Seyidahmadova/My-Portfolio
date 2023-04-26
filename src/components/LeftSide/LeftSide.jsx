@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import "./LeftSide.css";
 
 export default function LeftSide() {
-  return ( 
+  return (
     <div className="Left-Side">
       <div className="leftSide-container">
         <Nav.Link
@@ -42,7 +42,7 @@ export default function LeftSide() {
 
         <Nav.Link href="https://github.com/Seyidahmadova" target="_blank">
           <svg
-           className="media-icon"
+            className="media-icon"
             xmlns="http://www.w3.org/2000/svg"
             width="23"
             height="23"

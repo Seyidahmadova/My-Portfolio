@@ -1,81 +1,78 @@
-.Portfolio{
-    width: 100vw;
-    height: 100%;
+.Portfolio {
+  width: 100vw;
+  height: 100%;
 }
 
-.portfolio-container{
-    width: 100%;
-    margin-top: 6em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 50px;
-    align-items: center;
-    margin-bottom: 4em;
-    /* background-color: red; */
+.portfolio-container {
+  width: 100%;
+  margin-top: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
 }
 
-.portfolio-detail{
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    /* background-color:blue; */
+.portfolio-detail {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 4em;
 }
 
-.portfolio-item{
-    width: 300px;
-    height: 380px;
-    background-color: #0a192f;
-    border-radius: 30px;
-    border: 1px solid transparent;
-    object-fit: cover;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.portfolio-item {
+  width: 300px;
+  height: 380px;
+  background-color: #0a192f;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.portfolio-image{
-    width: 260px;
-    height: 180px;
-    border-radius: 30px;
-    margin: 20px;
-    border: 1px solid;
-    display: flex;
-    align-items: center;
-    position: relative; 
+.portfolio-image {
+  width: 260px;
+  height: 180px;
+  border-radius: 30px;
+  margin: 20px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
-  
+
 .portfolio-image > img {
-      width: 100%;
-      border-radius: 30px;
-      object-fit: cover;
-  }
-
-.portfolio-github{
-    width: 100px;
-    border: 1px solid #64ffda;
-    padding: 15px;
-    border-radius:15px;
+  width: 100%;
+  border-radius: 30px;
+  object-fit: cover;
 }
 
-.portfolio-demo{
-    width: 120px;
-    border: 1px solid #64ffda;
-    padding: 15px;
-    border-radius:15px;
-    background-color: #64ffda;
+.portfolio-github {
+  width: 100px;
+  border: 1px solid #64ffda;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.portfolio-demo {
+  width: 120px;
+  border: 1px solid #64ffda;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #64ffda;
 }
 
 .portfolio-link {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
 }
 
 .portfolio-github a {
-    color: #64ffda;
+  color: #64ffda;
 }
-

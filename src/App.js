@@ -6,6 +6,7 @@ import NavbarP from "./components/Navbar/Navbar";
 import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Portfolio from "./Portfolio/Portfolio";
+import ContactMe from "./ContactMe/ContactMe";
 
 function App() {
   return (
@@ -18,20 +19,10 @@ function App() {
             <Route path="/about" element={<About/>}/>
             <Route path="/skills" element={<Skills/>}/>
             <Route path="/portfolio" element={<Portfolio/>}/>
+            <Route path="/contact" element={<ContactMe/>}/>
           </Routes>
         </React.Fragment>
       </BrowserRouter>
-
-
-      {/* <BrowserRouter>
-      <NavbarP/>
-      <LeftSide/>
-      <Routes>
-      <Route exact path="/" Component={Home}/>
-                        <Route path="/home" Component={Home}/>
-                        <Route path="/about" Component={About}/>
-      </Routes>
-      </BrowserRouter> */}
 
     </div>
   );

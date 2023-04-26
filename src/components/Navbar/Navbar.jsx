@@ -2,30 +2,9 @@ import React, { useEffect, useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Burger from "../Burger/Burger";
-import logo from "../../assets/S (3).png";
 import "./Navbar.css";
 
 export default function NavbarP() {
-  const [icon, setIcon] = useState("icon unclicked");
-  // const [theme, setTheme] = useState("light");
-  // const [isIconClicked, setIconClicked] = useState(false);
-
-  // const toggleTheme = () => {
-  //   if (!isIconClicked) {
-  //     setIcon("icon clicked");
-  //     setTheme("dark");
-  //   } else {
-  //     setIcon("icon unclicked");
-  //     setTheme("light");
-  //   }
-
-  //   setIconClicked(!isIconClicked);
-  // };
-
-  // useEffect(() => {
-  //   document.body.className = theme;
-  // }, [theme]);
-
   const [screenSize, getDimension] = useState({
     dynamicWidth: window.innerWidth,
     dynamicHeight: window.innerHeight,
@@ -51,16 +30,7 @@ export default function NavbarP() {
       {screenSize.dynamicWidth < 479 ? (
         <div className="resizedPart">
           <Navbar.Brand className="brand">Aysel</Navbar.Brand>
-          {/* <div className="logo">
-            <img src={logo} alt="logo" style={{width:'40px'}}/>
-          </div> */}
-          <div
-            className={icon}
-            // onClick={(e) => {
-            //   e.preventDefault();
-            //   toggleTheme();
-            // }}
-          >
+          <div className="icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -78,29 +48,7 @@ export default function NavbarP() {
       ) : (
         <nav className="nav-container">
           <Navbar.Brand className="brand">Aysel</Navbar.Brand>
-          {/* <div className="logo">
-            <img src={logo} alt="logo" style={{width:'40px'}}/>
-          </div> */}
-
           <div className="nav-menu">
-            {/* <ul className="nav-menu-lists">
-              <li className="nav-item">
-                <a href="#home" className="nav-link">Home</a>
-              </li>
-              <li className="nav-item">
-                <a href="#about" className="nav-link">About</a>
-              </li>
-              <li className="nav-item">
-                <a href="#skills" className="nav-link">Skills</a>
-              </li>
-              <li className="nav-item">
-                <a href="#portfolio" className="nav-link">Portfolio</a>
-              </li>
-              <li className="nav-item">
-                <a href="#contact" className="nav-link">Contact</a>
-              </li>
-            </ul> */}
-
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/skills">Skills</Nav.Link>
@@ -108,13 +56,7 @@ export default function NavbarP() {
             <Nav.Link href="/contact">Contact</Nav.Link>
           </div>
 
-          <div
-            className={icon}
-            // onClick={(e) => {
-            //   e.preventDefault();
-            //   toggleTheme();
-            // }}
-          >
+          <div className="icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"

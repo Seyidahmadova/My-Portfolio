@@ -15,13 +15,8 @@ nav {
   border-bottom: thick double #e7eff2;
 }
 
-/* .logo{
-  margin-left: 35px;
-} */
-
 .brand {
-  /* font-family: "Pattaya", sans-serif; */
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 24px;
   color: #ccd6f6;
 }
@@ -32,34 +27,23 @@ nav {
 }
 
 .nav-menu {
-  /* width: 40em;
+  width: 44em;
   display: flex;
   justify-content: space-between;
-  margin-left: 35%; */
-  width: 44em;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 27%;
+  margin-left: 27%;
 }
 
-.nav-menu-lists{
+.nav-menu-lists {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
   list-style: none;
-  /* gap: 21%; */
-  /* flex-wrap: wrap; */
 }
 
-
-.nav-link{
+.nav-link {
   color: #ccd6f6;
 }
-
-
-
-
 
 .nav-menu > a {
   color: #ccd6f6;
@@ -74,17 +58,6 @@ nav {
   height: 10vh;
   display: flex;
 }
-
-
-/* .dark{
-  background-color: black;
-  color: white;
-}
-
-.dark  .nav-menu > a {
-  color: white;
-} */
-
 
 @media (max-width: 895.5px) {
   .nav-menu {
@@ -107,7 +80,7 @@ nav {
     margin-top: 0%;
     margin-left: 2%;
   }
-  .nav-menu a{
+  .nav-menu a {
     font-size: 12px;
   }
 
@@ -115,7 +88,6 @@ nav {
     padding: 1em 2em 1em 1em;
   }
 }
-
 
 @media (max-width: 478.5px) {
   .brand {

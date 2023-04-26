@@ -52,7 +52,7 @@ export default function About() {
               <div className="ecs">
                 <div>
                   <svg
-                   className="svg"
+                    className="svg"
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
                     height="16"
@@ -82,7 +82,7 @@ export default function About() {
                     Download CV
                     <div>
                       <svg
-                       className="svg"
+                        className="svg"
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
                         height="16"
