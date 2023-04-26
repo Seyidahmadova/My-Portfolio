@@ -44,7 +44,7 @@ export default function ContactMe() {
                 </svg>
               </div>
               <p>Whatsapp</p>
-              <a href="tel:+994507079651">050-707-96-51</a>
+              <a href="tel:+994507079651"> (+994) 050-707-96-51</a>
             </div>
             <div className="l-contact-item">
               <div>

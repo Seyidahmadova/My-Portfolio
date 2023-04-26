@@ -1,0 +1,124 @@
+.Contact {
+  width: 100vw;
+  height: 100%;
+}
+
+.contact-container {
+  width: 100%;
+  margin-top: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+
+.contact-detail {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 4em;
+  align-items: center;
+}
+
+.left-contact,
+.right-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.l-contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 300px;
+  height: 125px;
+  border-radius: 10px;
+  border: 1px solid #64ffda;
+}
+
+.l-contact-item a {
+  text-decoration: none;
+  color: #ccd6f6;
+}
+
+.contact-name {
+  position: relative;
+}
+
+.contact-mail {
+  position: relative;
+}
+
+.contact-message {
+  position: relative;
+}
+
+.contact-name > input,
+.contact-mail > input {
+  position: relative;
+  width: 300px;
+  height: 65px;
+  padding: 0 30px;
+  border-radius: 20px;
+  margin: 10px;
+  line-height: 6px;
+  font-size: 18px;
+  background-color: inherit;
+  border: 1px solid #64ffda;
+  color: white;
+}
+
+.contact-name > label,
+.contact-mail > label,
+.contact-message > label {
+  position: absolute;
+  top: 0.2px;
+  z-index: 1;
+  left: 2em;
+  background-color: black;
+  padding: 0 5px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.contact-message > input {
+  position: relative;
+  width: 300px;
+  height: 110px;
+  padding: 0 30px;
+  border-radius: 20px;
+  margin: 10px;
+  line-height: 6px;
+  font-size: 18px;
+  background-color: inherit;
+  border: 1px solid #64ffda;
+  color: white;
+}
+
+.contact-send-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 180px;
+  height: 55px;
+  font-size: 15px;
+  color: black;
+  border: 1px solid #64ffda;
+  background-color: #64ffda;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: color 1s ease-in-out;
+}
