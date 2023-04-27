@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 5em;
+  color: var(--text-primary);
 }
 
 .introduction {
@@ -45,14 +46,14 @@
 }
 
 .ecs {
-  border: 1px solid #64ffda;
+  border: 1px solid var(--border-secondary);
   border-radius: 7px;
   width: 180px;
   display: flex;
   flex-direction: column;
   gap: 7px;
   height: 107px;
-  padding-top: 18px;
+  padding-top: 13px;
   font-size: 17px;
   font-weight: bold;
 }
@@ -81,9 +82,9 @@
   height: 70px;
   font-size: 20px;
   letter-spacing: 2px;
-  color: white;
-  background-color: black;
-  border: 2px solid #64ffda;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-secondary);
   border-radius: 10px;
   position: relative;
   cursor: pointer;

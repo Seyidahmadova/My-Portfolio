@@ -11,6 +11,7 @@
   justify-content: center;
   gap: 50px;
   align-items: center;
+  color: var(--text-primary);
 }
 
 .portfolio-detail {
@@ -25,9 +26,9 @@
 .portfolio-item {
   width: 300px;
   height: 380px;
-  background-color: #0a192f;
+  background-color: var(--bg-primary);
   border-radius: 30px;
-  border: 1px solid transparent;
+  border: 1px solid black;
   object-fit: cover;
   display: flex;
   flex-direction: column;
@@ -39,7 +40,7 @@
   height: 180px;
   border-radius: 30px;
   margin: 20px;
-  border: 1px solid;
+  border: 1px solid black;
   display: flex;
   align-items: center;
   position: relative;
@@ -53,7 +54,7 @@
 
 .portfolio-github {
   width: 100px;
-  border: 1px solid #64ffda;
+  border: 1px solid var(--border-secondary);
   padding: 15px;
   border-radius: 15px;
 }
@@ -74,5 +75,5 @@
 }
 
 .portfolio-github a {
-  color: #64ffda;
+  color: var(--border-secondary);
 }

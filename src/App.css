@@ -2,7 +2,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: var(--bg-primary);
   overflow-x: hidden;
   height: 100vh;
 }

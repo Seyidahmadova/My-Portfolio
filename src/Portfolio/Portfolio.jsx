@@ -20,7 +20,7 @@ export default function Portfolio() {
               <img
                 src={img1}
                 alt="img1"
-                style={{ width: "260px", height: "180px" }}
+                style={{ width: "258px", height: "178px" }}
               />
             </div>
             <div className="portfolio-title">E-Commerce App</div>
@@ -40,7 +40,7 @@ export default function Portfolio() {
               <img
                 src={img2}
                 alt="img2"
-                style={{ width: "260px", height: "180px" }}
+                style={{ width: "258px", height: "178px" }}
               />
             </div>
             <div className="portfolio-title">Currency Converter</div>
@@ -62,7 +62,7 @@ export default function Portfolio() {
               <img
                 src={img3}
                 alt="img3"
-                style={{ width: "260px", height: "180px" }}
+                style={{ width: "258px", height: "178px" }}
               />
             </div>
             <div className="portfolio-title">To-Do List</div>
@@ -84,7 +84,7 @@ export default function Portfolio() {
               <img
                 src={img4}
                 alt="img4"
-                style={{ width: "260px", height: "180px" }}
+                style={{ width: "258px", height: "178px" }}
               />
             </div>
             <div className="portfolio-title">Movie Search</div>
@@ -106,7 +106,7 @@ export default function Portfolio() {
               <img
                 src={img5}
                 alt="img5"
-                style={{ width: "260px", height: "180px" }}
+                style={{ width: "258px", height: "178px" }}
               />
             </div>
             <div className="portfolio-title">Roll the dice</div>

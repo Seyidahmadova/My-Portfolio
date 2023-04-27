@@ -18,3 +18,49 @@ html, body{
   height:100vh;
 } */
 
+
+:root {
+  --text-primary-light: black;
+  --text-primary-dark: #ccd6f6;
+
+  --bg-primary-light: rgb(248, 248, 248);
+  --bg-primary-dark: black;
+
+  --bg-navbar-light: rgb(248, 248, 248);
+  --bg-navbar-dark: #0a192fd9;
+
+  --button-primary-light: #64ffda;
+  --button-primary-dark: black;
+
+  --bg-secondary-light: white;
+  --bg-secondary-dark: rgb(53 61 58);
+
+  --border-secondary-light: #0a192f;
+  --border-secondary-dark: #64ffda;
+
+  --bg-third-light: white;
+  --bg-third-dark: #0a192f;
+
+}
+
+
+.light-theme {
+  --text-primary: var(--text-primary-light);
+  --bg-primary: var(--bg-primary-light);
+  --bg-navbar: var(--bg-navbar-light);
+  --button-primary: var(--button-primary-light);
+  --bg-secondary: var(--bg-secondary-light);
+  --border-secondary : var(--border-secondary-light);
+  --bg-third: var(--bg-third-light);
+}
+
+.dark-theme {
+  --text-primary: var(--text-primary-dark);
+  --bg-primary: var(--bg-primary-dark);
+  --bg-navbar: var(--bg-navbar-dark);
+  --button-primary: var(--button-primary-dark);
+  --bg-secondary: var(--bg-secondary-dark);
+  --border-secondary: var(--border-secondary-dark);
+  --bg-third: var(--bg-third-dark);
+}
+ 

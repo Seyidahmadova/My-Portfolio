@@ -9,6 +9,7 @@
   flex-direction: column;
   margin-top: 4em;
   align-items: center;
+  color: var(--text-primary);
 }
 
 .skills-item-container {
@@ -35,7 +36,7 @@
   height: 150px;
   border: 1px solid #64ffda;
   border-radius: 7px;
-  background-color: rgb(53 61 58);
+  background-color: var(--bg-secondary);
 }
 
 @media (max-width: 871.5px) {

@@ -11,6 +11,7 @@
   justify-content: center;
   gap: 50px;
   align-items: center;
+  color: var(--text-primary);
 }
 
 .contact-detail {
@@ -42,12 +43,12 @@
   width: 300px;
   height: 125px;
   border-radius: 10px;
-  border: 1px solid #64ffda;
+  border: 1px solid var(--border-secondary);
 }
 
 .l-contact-item a {
   text-decoration: none;
-  color: #ccd6f6;
+  color: var(--text-primary);
 }
 
 .contact-name {
@@ -73,7 +74,7 @@
   line-height: 6px;
   font-size: 18px;
   background-color: inherit;
-  border: 1px solid #64ffda;
+  border: 1px solid var(--border-secondary);
   color: white;
 }
 
@@ -84,7 +85,7 @@
   top: 0.2px;
   z-index: 1;
   left: 2em;
-  background-color: black;
+  background-color: var(--bg-primary);
   padding: 0 5px;
   font-size: 14px;
 }
@@ -103,7 +104,7 @@ input:focus {
   line-height: 6px;
   font-size: 18px;
   background-color: inherit;
-  border: 1px solid #64ffda;
+  border: 1px solid var(--border-secondary);
   color: white;
 }
 

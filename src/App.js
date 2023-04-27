@@ -1,5 +1,5 @@
 import "./App.css";
-import React from "react";
+import React, { useContext } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home/Home";
 import NavbarP from "./components/Navbar/Navbar";
@@ -7,12 +7,17 @@ import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Portfolio from "./Portfolio/Portfolio";
 import ContactMe from "./ContactMe/ContactMe";
+import { ThemeContext } from "./Theme";
 
 function App() {
+
+
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <div className="App">
+    <div className={`App ${theme}`}>
       <BrowserRouter>
-        <NavbarP />
+        <NavbarP/>
         <React.Fragment>
           <Routes>
             <Route path="/"  element={<Home />} />
