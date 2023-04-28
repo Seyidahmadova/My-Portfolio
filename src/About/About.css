@@ -52,7 +52,7 @@
   display: flex;
   flex-direction: column;
   gap: 7px;
-  height: 107px;
+  height: 120px;
   padding-top: 13px;
   font-size: 17px;
   font-weight: bold;
@@ -128,7 +128,6 @@
   .ecs {
     width: 148px;
     display: flex;
-    height: 107px;
     font-size: 17px;
   }
   .ecs > span {
@@ -174,7 +173,7 @@
   .ecs {
     width: 166px;
     display: flex;
-    height: 111px;
+    height: 119px;
     font-size: 17px;
   }
 

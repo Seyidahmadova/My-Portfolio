@@ -29,7 +29,7 @@ export default function About() {
                   </svg>
                 </div>
                 Experience
-                <span>1 year</span>
+                <span>Not professional experience</span>
               </div>
               <div className="ecs">
                 <div>
@@ -45,7 +45,7 @@ export default function About() {
                   </svg>
                 </div>
                 Completed
-                <span> 15 + Projects</span>
+                <span> 5 + Projects</span>
               </div>
               <div className="ecs">
                 <div>
