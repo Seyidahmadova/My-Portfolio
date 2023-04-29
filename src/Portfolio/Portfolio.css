@@ -26,7 +26,7 @@
 .portfolio-item {
   width: 300px;
   height: 380px;
-  background-color: var(--bg-primary);
+  background-color: var(--bg-navbar);
   border-radius: 30px;
   border: 1px solid black;
   object-fit: cover;
