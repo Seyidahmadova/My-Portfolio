@@ -24,7 +24,7 @@ export default function Burger() {
  }
 
 
-
+ 
 
   return (
     <div className='Burger'>

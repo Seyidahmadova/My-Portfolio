@@ -29,7 +29,6 @@
   background-color: var(--bg-navbar);
   border-radius: 30px;
   border: 1px solid black;
-  object-fit: cover;
   display: flex;
   flex-direction: column;
   gap: 15px;

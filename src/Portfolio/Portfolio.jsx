@@ -5,6 +5,7 @@ import img2 from "../assets/Screenshot 2023-04-25 200813.png";
 import img3 from "../assets/Screenshot 2023-04-25 202419.png";
 import img4 from "../assets/Screenshot 2023-04-25 202831.png";
 import img5 from "../assets/Screenshot 2023-04-25 204231.png";
+import img6 from "../assets/255470964-5c468101-990e-483e-a731-bd7813d3202d.png"
 
 export default function Portfolio() {
   return (
@@ -101,6 +102,30 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
+
+
+          <div className="portfolio-item">
+            <div className="portfolio-image">
+              <img
+                src={img6}
+                alt="img6"
+                style={{ width: "258px", height: "178px" }}
+              />
+            </div>
+            <div className="portfolio-title">Demo Project</div>
+            <div className="portfolio-link">
+              <div className="portfolio-github">
+                <a href="https://github.com/Seyidahmadova/Demo">Github</a>
+              </div>
+              <div className="portfolio-demo">
+                <a href="https://incandescent-gnome-72c122.netlify.app">
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+
           <div className="portfolio-item">
             <div className="portfolio-image">
               <img
